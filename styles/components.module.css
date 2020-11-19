@@ -33,16 +33,16 @@
     bottom: 0px;
     height: 70px;
     position: fixed;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .imageGen{
-    border: solid 5px rgb(20, 20, 20);
+    /* border: solid 5px rgb(20, 20, 20); */
     position: fixed;
     bottom: -28px;
     width: 700px;
     height: 120px;
-    background-color: rgb(243, 243, 243);
+    /* background-color: rgb(243, 243, 243); */
 }
 
 .footerDeco{
@@ -50,7 +50,7 @@
     bottom: -18px;
     width: 790px;
     height: 65px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 @media (max-width: 900px) {
