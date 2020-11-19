@@ -20,6 +20,10 @@
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 2px;
+    transition: all ease-in 0.8s;
+}
+.naviBtn:hover{
+    color: yellow;
 }
 
 .genFooter{

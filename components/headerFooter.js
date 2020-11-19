@@ -8,6 +8,7 @@ function Header(){
                 <div className={styles.HeaderDeco} ></div>
                 <div className={styles.naviBtn}> Musica  </div>
                 <div className={styles.naviBtn}> Album  </div>
+                <div className={styles.naviBtn}> noticias  </div>
                 <div className={styles.iconGen}>
                     <Image
                         src="/icon1.png"
@@ -18,8 +19,9 @@ function Header(){
                         quality={100}
                     />
                 </div>
-                <div className={styles.naviBtn}> Musica </div>
-                <div className={styles.naviBtn}> Album </div>
+                <div className={styles.naviBtn}> Bio </div>
+                <div className={styles.naviBtn}> galeria </div>
+                <div className={styles.naviBtn}> videos </div>
             </div>
         </>
     )
