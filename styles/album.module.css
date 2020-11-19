@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+.albumPageGenCont{
+    padding-top: 80px;
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 110, 110);
+}
+
+.playerGenCont{
+    margin-top: 21px;
+    height: fit-content;
+    display: flex;
+    border: solid 4px black;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    font-family: 'Antic Slab', serif;
+    background-color: whitesmoke;
+}
+
+.socialMediaLinks{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: fit-content;
+    margin: 21px;
+}
+
+.songCover{
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.435);
+}
+
+.songAdditiinals{
+    margin: 21px;
+    height: 450px;
+}
+
+.songNumber{
+    font-size: 3em;
+    text-align: end;
+}
+
+.songTitle{
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-top: 180px;
+
+
+}
+
+.songAlbum{
+    font-size: 1.5em;
+}
+
+@media (max-width: 1200px) {
+
+
+
+}
