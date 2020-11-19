@@ -8,7 +8,7 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
 .albumPageGenCont{
     padding-top: 80px;
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     font-family: 'Antic Slab', serif;
@@ -108,6 +108,38 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
 
 .songAlbum{
     font-size: 1.5em;
+}
+
+.MusiciansCreditBox{
+    font-family: 'Antic Slab', serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 120px;
+    /* min-height: 70vh; */
+}
+.Artiststitle{
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.musiciansList{
+    text-align: end;
+    font-size: 1.5em;
+}
+
+.musiciansRole{
+    margin-left: 40px;
+    font-size: 1.5em;
+}
+
+.BugOne{
+    margin-top: 150px;
+    transform: rotate(90deg)
 }
 
 @media (max-width: 1200px) {
