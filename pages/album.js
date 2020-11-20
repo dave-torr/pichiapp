@@ -21,7 +21,7 @@ let song2={
     "songAudioFile": "/audioFiles/Enmascarado.wav"
 }
 let song3={
-    "songTitle": "Huayra",
+    "songTitle": "Huaira",
     "songAlbum": "Pichirilo Radioactivo",
     "songNumber": "03",
     "songCover": "/albumcovers/Huayra.png",
