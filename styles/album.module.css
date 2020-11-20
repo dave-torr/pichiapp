@@ -35,7 +35,7 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
     height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
@@ -43,6 +43,8 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 33px;
+    margin-right: 33px;
 
 }
 .eachAlbumSong{
@@ -57,6 +59,7 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
 .albumCoverPic{
     box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.211);
     height: fit-content;
+    margin-right: 33px;
 }
 
 .playerGenCont{
@@ -108,6 +111,32 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
     font-size: 1.5em;
 }
 
+.imageDownload1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.indications{
+    font-size: 1.5em;
+    font-family: 'Antic Slab', serif;
+    padding-left: 200px;
+    padding-right: 33px;
+    padding-bottom: 12px;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+.storiesImg{
+    width: fit-content;
+    height: fit-content;
+    transform: rotate(90deg);
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.435);
+}
+
 .MusiciansCreditBox{
     font-family: 'Antic Slab', serif;
     width: 100%;
@@ -115,8 +144,7 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
     flex-direction: row;
     /* align-items: center; */
     justify-content: center;
-    margin-bottom: 120px;
-    /* min-height: 70vh; */
+    margin-bottom: 50px;
 }
 .Artiststitle{
     text-align: center;
@@ -138,6 +166,12 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
 .BugOne{
     margin-top: 150px;
     transform: rotate(90deg)
+}
+
+.creditContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 @media (max-width: 900px) {
@@ -182,16 +216,22 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
-        margin: 21px;
+        margin-top: 21px;
     }
 
     .albumPageGenCont{
+        box-sizing: border-box;
         padding-top: 80px;
         height: fit-content;
         display: flex;
         justify-content: center;
         font-family: 'Antic Slab', serif;
         /* background-color: rgb(117, 110, 110); */
+    }
+
+    .songNumber{
+        font-size: 2em;
+        text-align: end;
     }
     .songCover{
         width: 100%;
@@ -202,6 +242,22 @@ src: url('./../public/fonts/Lekton-Regular.ttf'),
     .BugOne{
         display: none;
     }
+
+    .imageDownload1{
+        margin-top: 150px;
+        flex-direction: column;
+    
+    }
+
+    .storiesImg{
+        height: 100vw;
+        box-shadow: unset;
+    }
+
+    .indications{
+        display: none;
+    }
+
     .musiciansList{
         font-size: 1.2em;
     }

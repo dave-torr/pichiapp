@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from "./../styles/components.module.css"
 
-function Header(){
+function Header(props){
     return(
         <>
             <div className={styles.genHeader}>
@@ -9,7 +9,8 @@ function Header(){
                 {/* <div className={styles.naviBtn}> Musica  </div>
                 <div className={styles.naviBtn}> Album  </div>
                 <div className={styles.naviBtn}> noticias  </div> */}
-                <div className={styles.iconGen}>
+                <div className={styles.iconGen}
+                onClick={()=>props.setAlbumStep("main")} >
                     <Image
                         src="/icon1.png"
                         alt="Pichirilo Radioactivo Logo"
