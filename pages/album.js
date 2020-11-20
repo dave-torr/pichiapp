@@ -238,18 +238,17 @@ export default function Album(){
     const clientDownloads=()=>{
         return(
             <div className={styles.imageDownload1} >
-                <div className={styles.storiesImg}> 
-                    <a href="/misc/stories.jpg" download>
+                    <div className={styles.storiesImg}> 
+                        <a href="/misc/stories.jpg" download>
                         <Image
                             src="/misc/stories.jpg"
                             alt="Promotional, downloadable Image"
                             width={240}
                             height={500}
-                            // layout="responsive"
-
+                            layout="responsive"
                         />
-                    </a>
-                </div>
+                        </a>
+                    </div>
                 <div>
                     <a href="/misc/stories.jpg" download>
                     <div className={styles.indications} > Descarga esta imagen para <br></br> compartir  en redes sociales!</div>
