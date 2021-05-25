@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root{
+/* brand colors */
+  
+
+/* merch alternative colors */
+
+  --general-transition: all ease-in 0.3s;
+  
+  --generalBoxShadow: 2px 2px 3px rgba(0, 0, 0, 0.23);
+  --aHighlightBoxShadow: 6px 8px 9px rgba(0, 0, 0, 0.258);
+}

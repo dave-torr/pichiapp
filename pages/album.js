@@ -110,7 +110,7 @@ export default function Album(){
                         behavior: 'smooth'
                     })
                 }}
-            > {elem.songTitle} </div>
+            >{i+1} -  {elem.songTitle} </div>
 
         </>)
         return(
@@ -280,6 +280,7 @@ export default function Album(){
             </>
         )
     }
+
 
 
     return(
